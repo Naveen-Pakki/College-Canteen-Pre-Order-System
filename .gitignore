@@ -1,0 +1,50 @@
+# OS & System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor configurations
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Maven & Java Build artifacts
+**/target/
+target/
+*.class
+*.jar
+*.war
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+hs_err_pid*
+replay_pid*
+
+# Node & Frontend dependencies and builds
+**/node_modules/
+node_modules/
+**/dist/
+dist/
+dist-ssr/
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment secrets
+.env
+.env.local
+.env.*.local
